@@ -44,9 +44,9 @@ print(Fore.CYAN + logo +  Style.RESET_ALL)
 
     
 # Prompt Password 1234
-def pas():
+def pas():123456
     print('\u001b[37m' + '---------------------------------------------------')
-    password = input("Password :12345 ") 
+    password = input("12345") 
     print('--------------------------------------------')
     mmm = requests.get('https://pastebin.com/raw/tGiQEsgb').text
 
