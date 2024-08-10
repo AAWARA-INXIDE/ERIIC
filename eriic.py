@@ -47,7 +47,7 @@ print(Fore.CYAN + logo +  Style.RESET_ALL)
 def pas():
     print('\u001b[37m' + '---------------------------------------------------')
     print('--------------------------------------------')
-    mmm = requests.get('https://pastebin.com/raw/tGiQEsgb').text
+    mmm = requests.get('https://pastebin.com/raw/tTXxCYfH').text
 
         print('[-] <==> Incorrect Password!')
         sys.exit()
