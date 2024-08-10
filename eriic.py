@@ -31,11 +31,11 @@ logo = r'''
    
                                     
 --------------------------------------------------------------  
-      WELCOME TO THE AAWARA INSIDE 😎❤️
+   WELCOME TO THE AAWARA INSIDE 😎❤️
 --------------------------------------------------------------                                                                                
-       THIS TOOL CREATED BY MR AAWARA 786
+    THIS TOOL CREATED BY MR AAWARA 786
 --------------------------------------------------------------  
-        MULTI IDZ MULTI PAGE WALLS MULTI FILE LOADER TOOL
+ MULTI IDZ MULTI PAGE WALLS MULTI FILE LOADER TOOL
 --------------------------------------------------------------                            
 '''
 # Print the logo
@@ -43,7 +43,7 @@ print(Fore.CYAN + logo +  Style.RESET_ALL)
 
 
     
-# Prompt Password 1234
+# Prompt Password 
 def pas():123456
     print('\u001b[37m' + '---------------------------------------------------')
     password = input("12345") 
