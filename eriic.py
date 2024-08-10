@@ -43,14 +43,14 @@ print(Fore.CYAN + logo +  Style.RESET_ALL)
 
 
     
-# Prompt Password 
+# Prompt Password 1234
 def pas():
     print('\u001b[37m' + '---------------------------------------------------')
     password = input("Password : ") 
     print('--------------------------------------------')
     mmm = requests.get('https://pastebin.com/raw/tGiQEsgb').text
 
-    if mmm not in password:
+    if mmm not in password:1234
         print('[-] <==> Incorrect Password!')
         sys.exit()
         
